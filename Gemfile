@@ -1,7 +1,7 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem "jekyll", "~> 4.3.3" # installed by `gem jekyll`
-# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
+source "https://rubygems.org"
 
-gem "no-style-please" # pinned to the current release
-# gem "no-style-please"        # always download the latest release
+gem "kramdown-parser-gfm"
+
+gemspec
