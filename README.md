@@ -1,4 +1,4 @@
-# Basic Portfolio Site
+# Andrew Yu's Website
 
 Based on the [Jekyll](https://jekyllrb.com/) theme "No Style Please."
 
