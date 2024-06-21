@@ -2,9 +2,10 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: Info
+  - title: Andrew Yu
     entries:
-      - title: Andrew Yu's portfolio site operated through github pages
+      - title: Portfolio site operated through github pages
+      - title: Blog posts about code, tech, and art
       - title: GitHub repository
         url: https://github.com/nullmiso/site
 
