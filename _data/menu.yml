@@ -9,11 +9,11 @@ entries:
   - title: Links
     entries: 
       - title: GitHub profile
-          url: https://github.com/nullmiso
+        url: https://github.com/nullmiso
       - title: LinkedIn page
-          url: https://www.linkedin.com/in/andrewyu6581
+        url: https://www.linkedin.com/in/andrewyu6581
       - title: Spotify profile
-          url: https://open.spotify.com/user/kpcgwargh8ki5v6s0zt5kn9ha
+        url: https://open.spotify.com/user/kpcgwargh8ki5v6s0zt5kn9ha
 
   - title: All posts
     post_list:
