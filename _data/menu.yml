@@ -6,10 +6,16 @@ entries:
     entries:
       - title: Portfolio site operated through GitHub pages
       - title: Blog posts about code, tech, and art
-      - title: GitHub repository
-        url: https://github.com/nullmiso/site
+  - title: Links
+    entries: 
+      - title: GitHub profile
+          url: https://github.com/nullmiso
+      - title: LinkedIn page
+          url: https://www.linkedin.com/in/andrewyu6581
+      - title: Spotify profile
+          url: https://open.spotify.com/user/kpcgwargh8ki5v6s0zt5kn9ha
 
-  - title: All Posts
+  - title: All posts
     post_list:
       limit: 5
       show_more: true
