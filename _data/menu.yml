@@ -8,11 +8,13 @@ entries:
       - title: Blog posts about code, tech, and art
   - title: Links
     entries: 
-      - title: GitHub profile
+      - title: Resume 
+        url: https://github.com/nullmiso/site/blob/1263232bbc827bc0857edfeb7118d8f1da4f74c2/assets/files/andrewyuresume.pdf
+      - title: GitHub
         url: https://github.com/nullmiso
-      - title: LinkedIn page
+      - title: LinkedIn
         url: https://www.linkedin.com/in/andrewyu6581
-      - title: Spotify profile
+      - title: Spotify
         url: https://open.spotify.com/user/kpcgwargh8ki5v6s0zt5kn9ha
 
   - title: All posts
