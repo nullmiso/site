@@ -43,7 +43,11 @@ p { margin: 1rem 0; }
 
 li { margin: 0.4rem 0; }
 
-*:target { background: yellow; }
+a { outline-color: transparent; }
+a:link { color: rgb(237, 102, 99); }
+a:visited { color: rgb(138, 120, 120); }
+
+*:target { color: rgb(237, 102, 99); }
 
 .w {
   max-width: 640px;
@@ -69,7 +73,7 @@ table, th, td {
 
 code {
   color: white;
-  background: black;
+  background: rgb(237, 102, 99);
 }
 
 div.highlighter-rouge code {
