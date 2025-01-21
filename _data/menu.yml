@@ -2,14 +2,14 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: Information
+  - title: About
     entries:
-      - title: Portfolio site operated through GitHub pages
-      - title: Blog posts about code, tech, and art
+      - title: Blog & portfolio site 
+      - title: Operated through GitHub pages
   - title: Links
     entries: 
       - title: Resume 
-        url: https://www.dropbox.com/scl/fi/r6g0o81rfsjxc3smdjy97/andrewyuresume.pdf?rlkey=9dzb38zo092sff1cwvgjhbgvx&st=dls81l6z&dl=0
+        url: https://www.dropbox.com/scl/fi/71h6dodyuz1j8y57twjg4/andrewyuresume.pdf?rlkey=l51y370kfdpylzi17ih8qsbdu&st=xvgqv2bg&dl=0
       - title: GitHub
         url: https://github.com/nullmiso
       - title: LinkedIn
