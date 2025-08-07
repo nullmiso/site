@@ -3,8 +3,6 @@
     <li>
     {%- if item.url -%}
       <a href="{{ item.url }}">{{ item.title }}</a>
-    {%- if item.resume -%}
-      <a href="nullmiso.github.io/assets/files/resume.pdf" target="_blank">Resume</a>
     {%- else -%}
       {{ item.title }}
     {%- endif -%}
