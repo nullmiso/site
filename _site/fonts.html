@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Adding fonts to the website</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Adding fonts to the website" />
+<meta name="author" content="Andrew Yu" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I am somewhat particular about the aesthetics of what I use and make. As part of my journey to fully understand the ins and outs of operating a GitHub pages website, I wanted to give it a fresh coat of paint using one of my favorite fonts, Questrial." />
+<meta property="og:description" content="I am somewhat particular about the aesthetics of what I use and make. As part of my journey to fully understand the ins and outs of operating a GitHub pages website, I wanted to give it a fresh coat of paint using one of my favorite fonts, Questrial." />
+<link rel="canonical" href="http://localhost:4000/fonts.html" />
+<meta property="og:url" content="http://localhost:4000/fonts.html" />
+<meta property="og:site_name" content="Andrew Yu" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-06-30T00:00:00-07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Adding fonts to the website" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Andrew Yu"},"dateModified":"2024-06-30T00:00:00-07:00","datePublished":"2024-06-30T00:00:00-07:00","description":"I am somewhat particular about the aesthetics of what I use and make. As part of my journey to fully understand the ins and outs of operating a GitHub pages website, I wanted to give it a fresh coat of paint using one of my favorite fonts, Questrial.","headline":"Adding fonts to the website","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/fonts.html"},"url":"http://localhost:4000/fonts.html"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Andrew Yu" /><link rel="shortcut icon" type="image/x-icon" href="/logo.png" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Questrial">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu+Mono">
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head><body a="light">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
+        <a href="/">..</a><article>
+  <p class="post-meta">
+    <time datetime="2024-06-30 00:00:00 -0700">2024-06-30</time>
+  </p>
+  
+  <h1>Adding fonts to the website</h1>
+
+  <p>I am somewhat particular about the aesthetics of what I use and make. As part of my journey to fully understand the ins and outs of operating a GitHub pages website, I wanted to give it a fresh coat of paint using one of my favorite fonts, <strong>Questrial</strong>.</p>
+
+<p>I first came across this font when I was browsing the catalog of music of a French label, Ultimae Records. Run by Vincent Villuis (who releases as AES Dana), the label specializes in cinematic, professionally mastered electronic music releases with impeccable visual design. I own a sizeable chunk of their releases on CD. As part of their visual overhaul in the latter half of 2017, their font of choice for releases and their website was Questrial. This is a very beautiful typeface with a few quirks (like the “j” character lacking a bottom curve) but is nonetheless readable and elegant for most purposes. It also neatly matches my resume, which sacrifices some professionalism for a very clean and unique look.</p>
+
+<p>Adding this font to the website was simple.</p>
+<ol>
+  <li>I first needed to load Questrial using its Google Fonts URL into <code class="language-plaintext highlighter-rouge">_includes/head.html</code>.</li>
+  <li>Edited <code class="language-plaintext highlighter-rouge">_sass/no-style-please.scss</code> to have <code class="language-plaintext highlighter-rouge">body</code> (the only type of text this website uses) <code class="language-plaintext highlighter-rouge">= Questrial</code>.</li>
+  <li>Added the lines
+<code class="language-plaintext highlighter-rouge">body { font-family: 'Questrial'; }</code> and <code class="language-plaintext highlighter-rouge">h1, h2, h3, h4, h5, .site-title, .site-nav { font-family: 'Questrial'; }</code> to the file <code class="language-plaintext highlighter-rouge">assets/css/main.scss</code>.</li>
+  <li>Finally, I modified <code class="language-plaintext highlighter-rouge">head.html</code> to load <code class="language-plaintext highlighter-rouge">main.scss</code> <em>after</em> the Questrial font was loaded, and the font successfully displayed on the website after deployment.</li>
+</ol>
+
+<p>To stylize the <em>code</em> font used above, I wanted to use Ubuntu Mono from the eponymous Linux distribution. I’ve been using it as my VSCode editor font ever since I learned how to customize the IDE in high school. Loading it in and ensuring the “code” style of text uses it mirrors the first four steps above.</p>
+
+</article>
+      </div>
+    </main>
+  </body>
+</html>
