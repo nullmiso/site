@@ -9,7 +9,7 @@ entries:
   - title: Links
     entries: 
       - title: Resume 
-        url: https://nullmiso.github.io/assets/files/resume.pdf
+        resume: https://nullmiso.github.io/assets/files/resume.pdf
       - title: GitHub
         url: https://github.com/nullmiso
       - title: LinkedIn
